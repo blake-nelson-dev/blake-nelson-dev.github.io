@@ -5,16 +5,10 @@ on:
     branches:
       - source
 
-# Sets permissions of the GITHUB_TOKEN
 permissions:
   contents: write
   pages: write
   id-token: write
-
-# Allow only one concurrent deployment
-concurrency:
-  group: "pages"
-  cancel-in-progress: true
 
 jobs:
   build-and-deploy:
@@ -27,10 +21,13 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '20'
-          cache: 'npm'
 
-      - name: Install Dependencies
-        run: npm ci
+      - name: Clean Install
+        run: |
+          rm -rf node_modules
+          rm -f package-lock.json
+          npm install
+          npm i @rollup/rollup-linux-x64-gnu
 
       - name: Build
         run: npm run build
@@ -41,4 +38,4 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
           publish_branch: main
-          force_orphan: true # This ensures clean deployment
+          force_orphan: true
