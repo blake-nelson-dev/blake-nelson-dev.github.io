@@ -54,6 +54,3 @@ dist-ssr
 # YAML files
 *.yml
 *.yaml
-
-#text
-instructions.txt
