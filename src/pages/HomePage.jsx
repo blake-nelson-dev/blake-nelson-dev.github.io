@@ -16,13 +16,13 @@ const HomePage = () => {
               
               <div className="space-x-4">
                 <a 
-                  href="/works" 
+                  href="#/works" 
                   className="inline-block px-8 py-3 bg-gray-900 text-white rounded-lg hover:bg-gray-800 transition"
                 >
                   View My Work
                 </a>
                 <a 
-                  href="/contact" 
+                  href="#/contact" 
                   className="inline-block px-8 py-3 border-2 border-gray-900 text-gray-900 rounded-lg hover:bg-gray-100 transition"
                 >
                   Contact

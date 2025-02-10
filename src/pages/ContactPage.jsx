@@ -1,13 +1,15 @@
-import React from 'react';
-import { contactData } from '../data/contactData';
-import { Github, Linkedin, Mail, MapPin } from 'lucide-react';
+import React from "react";
+import { contactData } from "../data/contactData";
+import { Github, Linkedin, Mail, MapPin } from "lucide-react";
 
 export const ContactPage = () => {
   return (
     <div className="min-h-screen pt-24 pb-16">
       <div className="container mx-auto px-4 max-w-2xl">
-        <h1 className="text-4xl font-bold mb-8">{contactData.introduction.title}</h1>
-        
+        <h1 className="text-4xl font-bold mb-8">
+          {contactData.introduction.title}
+        </h1>
+
         <div className="bg-white rounded-lg shadow-lg overflow-hidden">
           {/* Introduction */}
           <div className="p-8 border-b">
@@ -22,7 +24,7 @@ export const ContactPage = () => {
             <div className="space-y-4">
               <div className="flex items-center gap-3">
                 <Mail className="text-gray-400" size={20} />
-                <a 
+                <a
                   href={`mailto:${contactData.contact.email}`}
                   className="text-gray-600 hover:text-blue-600"
                 >
@@ -31,7 +33,9 @@ export const ContactPage = () => {
               </div>
               <div className="flex items-center gap-3">
                 <MapPin className="text-gray-400" size={20} />
-                <span className="text-gray-600">{contactData.contact.timeZone}</span>
+                <span className="text-gray-600">
+                  {contactData.contact.timeZone}
+                </span>
               </div>
             </div>
           </div>
@@ -63,8 +67,12 @@ export const ContactPage = () => {
 
           {/* What I'm Looking For */}
           <div className="p-8 border-b">
-            <h2 className="text-xl font-semibold mb-4">{contactData.interests.title}</h2>
-            <p className="text-gray-600 mb-4">{contactData.interests.description}</p>
+            <h2 className="text-xl font-semibold mb-4">
+              {contactData.interests.title}
+            </h2>
+            <p className="text-gray-600 mb-4">
+              {contactData.interests.description}
+            </p>
             <ul className="space-y-2">
               {contactData.interests.points.map((point, index) => (
                 <li key={index} className="flex items-start">
@@ -78,9 +86,13 @@ export const ContactPage = () => {
           {/* Resume Download */}
           {contactData.resume.available && (
             <div className="p-8">
-              <button className="inline-block px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors">
+              <a
+                href="/resume/resume.pdf"
+                download
+                className="inline-block px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"
+              >
                 {contactData.resume.buttonText}
-              </button>
+              </a>
             </div>
           )}
         </div>
