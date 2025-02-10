@@ -71,7 +71,7 @@ export const worksData = {
       impact:
         "Successfully created an AI opponent that makes strategic decisions in real-time, providing an engaging gaming experience while demonstrating practical applications of game theory and AI algorithms.",
       image: "/images/checkers.jpg",
-      githubUrl: "https://github.com/yourusername/checkers-ai",
+      githubUrl: "https://github.com/blake-nelson-dev/java-checkers-ai",
     },
     {
       id: "movie-database",
