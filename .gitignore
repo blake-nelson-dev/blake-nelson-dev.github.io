@@ -50,7 +50,3 @@ dist-ssr
 
 # Cache
 .cache/
-
-# YAML files
-*.yml
-*.yaml
