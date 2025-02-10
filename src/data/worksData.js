@@ -31,7 +31,7 @@ export const worksData = {
       ],
       impact:
         "Developed a comprehensive platform that enables students to gain practical experience in stock trading while providing educators with tools to guide and monitor their learning progress.",
-      image: "/api/placeholder/600/400",
+      image: "/images/placeholder.jpg",
       githubUrl: "https://github.com/yourusername/stock-dojo",
       features: [
         "Multiple portfolio management",
@@ -103,7 +103,7 @@ export const worksData = {
       ],
       impact:
         "Created a fully functional movie database platform that demonstrates full-stack development capabilities and modern web development practices.",
-      image: "/api/placeholder/600/400", // Replace with actual image path
+      image: "/images/placeholder.jpg",
       githubUrl: "https://github.com/yourusername/movie-database",
     },
     {
@@ -138,7 +138,7 @@ export const worksData = {
       ],
       impact:
         "Successfully identified key factors influencing video game ratings and created a model to predict rating scores, achieving significant accuracy through model comparison and selection.",
-      image: "/api/placeholder/600/400", // Replace with actual image path
+      image: "/images/placeholder.jpg",
       githubUrl: "https://github.com/yourusername/imdb-games-analysis",
     },
     {
@@ -173,7 +173,7 @@ export const worksData = {
       ],
       impact:
         "Successfully demonstrated that simple models like Linear Regression can perform comparably to more complex approaches in cryptocurrency price prediction, providing a foundation for practical real-time prediction systems.",
-      image: "/path/to/crypto-prediction.webp", // Will need actual image path
+      image: "/images/placeholder.jpg",
       githubUrl: "your-github-url",
     },
     {
@@ -205,7 +205,7 @@ export const worksData = {
         "Normalizing historical salary data for fair comparison"
       ],
       impact: "Provided insights into NBA talent development patterns, including the influence of geography on player development and the relationship between physical attributes and career success. Found that city population size significantly correlates with NBA talent production.",
-      image: "/path/to/nba-analysis.webp", // Will need actual image path
+      image: "/images/placeholder.jpg",
       githubUrl: "your-github-url"
     },
     {
@@ -238,7 +238,7 @@ export const worksData = {
         "Developing configurable standards validation"
       ],
       impact: "Significantly improved report standardization and reduced manual review time for SSRS reports. Provided insights into SQL patterns and potential optimizations across the reporting infrastructure.",
-      image: "/path/to/ssrs-scanner.webp", // Will need actual image path
+      image: "/images/placeholder.jpg",
       githubUrl: "your-github-url"
     },
     {
@@ -271,7 +271,7 @@ export const worksData = {
         "Developing accurate water accumulation algorithms"
       ],
       impact: "Successfully created a tool for analyzing terrain data and predicting water flow patterns, providing valuable insights for geographic analysis and potential flood prediction.",
-      image: "/path/to/lidar-analysis.webp", // Will need actual image path
+      image: "/images/placeholder.jpg",
       githubUrl: "your-github-url"
     },
     {
@@ -304,7 +304,7 @@ export const worksData = {
         "Meeting aviation safety standards and requirements"
       ],
       impact: "This project aims to enhance drone flight safety by providing pilots with formal safety assessment tools, potentially reducing incidents in shared airspace.",
-      image: "/path/to/drone-safety.webp", // Will need actual image path
+      image: "/images/placeholder.jpg",
       githubUrl: "your-github-url",
       status: "In Development"
     }
