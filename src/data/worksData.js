@@ -1,6 +1,40 @@
 export const worksData = {
   projects: [
     {
+      id: "drone-safety",
+      title: "Drone Safety Certificate Generator",
+      category: "Research Projects",
+      description: "Developing a system to generate safety certificates for small Uncrewed Aerial Systems (sUAS) operations, helping drone pilots assess and document flight readiness using software product line engineering principles.",
+      problemStatement: "Create a robust system for drone pilots to generate and manage safety certificates, ensuring safe operation in shared airspace by implementing formal safety case assessments using software product line engineering.",
+      role: "Full Stack Developer",
+      technologies: [
+        "React",
+        "TypeScript",
+        "MongoDB",
+        "AWS",
+        "Software Product Line Engineering",
+        "Safety Systems"
+      ],
+      highlights: [
+        "Implementing software product line engineering for safety certificate generation",
+        "Developing dynamic certificate generation based on flight conditions",
+        "Creating AWS messaging system for certificate communication",
+        "Building interactive UI for safety assessment workflows",
+        "Integrating with existing aviation safety protocols"
+      ],
+      challenges: [
+        "Implementing complex safety case logic for diverse flight scenarios",
+        "Creating intuitive interfaces for technical safety assessments",
+        "Integrating with AWS services for reliable communication",
+        "Ensuring scalability for various drone types and operations",
+        "Meeting aviation safety standards and requirements"
+      ],
+      impact: "This project aims to enhance drone flight safety by providing pilots with formal safety assessment tools, potentially reducing incidents in shared airspace.",
+      image: "/images/drone.jpg",
+      githubUrl: "None",
+      status: "In Development"
+    },
+    {
       id: "stock-dojo",
       title: "Stock Dojo - Educational Trading Platform",
       category: "Full Stack Development",
@@ -32,7 +66,7 @@ export const worksData = {
       impact:
         "Developed a comprehensive platform that enables students to gain practical experience in stock trading while providing educators with tools to guide and monitor their learning progress.",
       image: "/images/placeholder.jpg",
-      githubUrl: "None",
+      githubUrl: "https://github.com/blake-nelson-dev/stock-dojo-android.git",
       status: "Complete",
       features: [
         "Multiple portfolio management",
@@ -142,7 +176,7 @@ export const worksData = {
       ],
       impact:
         "Successfully identified key factors influencing video game ratings and created a model to predict rating scores, achieving significant accuracy through model comparison and selection.",
-      image: "/images/placeholder.jpg",
+      image: "/images/game-controller.jpg",
       githubUrl: "None",
       status: "Complete",
     },
@@ -178,7 +212,7 @@ export const worksData = {
       ],
       impact:
         "Successfully demonstrated that simple models like Linear Regression can perform comparably to more complex approaches in cryptocurrency price prediction, providing a foundation for practical real-time prediction systems.",
-      image: "/images/placeholder.jpg",
+      image: "/images/stock-chart.jpg",
       githubUrl: "None",
       status: "Complete",
     },
@@ -211,7 +245,7 @@ export const worksData = {
         "Normalizing historical salary data for fair comparison"
       ],
       impact: "Provided insights into NBA talent development patterns, including the influence of geography on player development and the relationship between physical attributes and career success. Found that city population size significantly correlates with NBA talent production.",
-      image: "/images/placeholder.jpg",
+      image: "/images/basketball.jpg",
       githubUrl: "None",
       status: "Complete",
     },
@@ -279,43 +313,9 @@ export const worksData = {
         "Developing accurate water accumulation algorithms"
       ],
       impact: "Successfully created a tool for analyzing terrain data and predicting water flow patterns, providing valuable insights for geographic analysis and potential flood prediction.",
-      image: "/images/placeholder.jpg",
+      image: "/images/lidar-data.jpg",
       githubUrl: "None",
       status: "Complete",
     },
-    {
-      id: "drone-safety",
-      title: "Drone Safety Certificate Generator",
-      category: "Research Projects",
-      description: "Developing a system to generate safety certificates for small Uncrewed Aerial Systems (sUAS) operations, helping drone pilots assess and document flight readiness using software product line engineering principles.",
-      problemStatement: "Create a robust system for drone pilots to generate and manage safety certificates, ensuring safe operation in shared airspace by implementing formal safety case assessments using software product line engineering.",
-      role: "Full Stack Developer",
-      technologies: [
-        "React",
-        "TypeScript",
-        "MongoDB",
-        "AWS",
-        "Software Product Line Engineering",
-        "Safety Systems"
-      ],
-      highlights: [
-        "Implementing software product line engineering for safety certificate generation",
-        "Developing dynamic certificate generation based on flight conditions",
-        "Creating AWS messaging system for certificate communication",
-        "Building interactive UI for safety assessment workflows",
-        "Integrating with existing aviation safety protocols"
-      ],
-      challenges: [
-        "Implementing complex safety case logic for diverse flight scenarios",
-        "Creating intuitive interfaces for technical safety assessments",
-        "Integrating with AWS services for reliable communication",
-        "Ensuring scalability for various drone types and operations",
-        "Meeting aviation safety standards and requirements"
-      ],
-      impact: "This project aims to enhance drone flight safety by providing pilots with formal safety assessment tools, potentially reducing incidents in shared airspace.",
-      image: "/images/placeholder.jpg",
-      githubUrl: "None",
-      status: "In Development"
-    }
   ],
 };
