@@ -213,7 +213,7 @@ export const worksData = {
       impact:
         "Successfully demonstrated that simple models like Linear Regression can perform comparably to more complex approaches in cryptocurrency price prediction, providing a foundation for practical real-time prediction systems.",
       image: "/images/stock-chart.jpg",
-      githubUrl: "None",
+      githubUrl: "https://github.com/blake-nelson-dev/crypto-price-prediction-ml.git",
       status: "Complete",
     },
     {
@@ -314,7 +314,7 @@ export const worksData = {
       ],
       impact: "Successfully created a tool for analyzing terrain data and predicting water flow patterns, providing valuable insights for geographic analysis and potential flood prediction.",
       image: "/images/lidar-data.jpg",
-      githubUrl: "None",
+      githubUrl: "https://github.com/blake-nelson-dev/lidar-terrain-flow-analysis-public.git",
       status: "Complete",
     },
   ],

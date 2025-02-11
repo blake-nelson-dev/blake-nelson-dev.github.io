@@ -25,6 +25,7 @@ export const contactData = {
   },
   resume: {
     available: true,
-    buttonText: "Download Resume"
+    buttonText: "Download Resume",
+    link: "/resume/blake-nelson-resume.pdf"
   }
 };

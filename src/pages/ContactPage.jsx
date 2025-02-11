@@ -87,7 +87,7 @@ export const ContactPage = () => {
           {contactData.resume.available && (
             <div className="p-8">
               <a
-                href="/resume/resume.pdf"
+                href={contactData.resume.link}
                 download
                 className="inline-block px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"
               >
