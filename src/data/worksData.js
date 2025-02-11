@@ -246,7 +246,7 @@ export const worksData = {
       ],
       impact: "Provided insights into NBA talent development patterns, including the influence of geography on player development and the relationship between physical attributes and career success. Found that city population size significantly correlates with NBA talent production.",
       image: "/images/basketball.jpg",
-      githubUrl: "None",
+      githubUrl: "https://github.com/blake-nelson-dev/nba-player-analytics.git",
       status: "Complete",
     },
     {
