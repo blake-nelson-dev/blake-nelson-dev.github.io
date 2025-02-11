@@ -32,7 +32,8 @@ export const worksData = {
       impact:
         "Developed a comprehensive platform that enables students to gain practical experience in stock trading while providing educators with tools to guide and monitor their learning progress.",
       image: "/images/placeholder.jpg",
-      githubUrl: "https://github.com/yourusername/stock-dojo",
+      githubUrl: "None",
+      status: "Complete",
       features: [
         "Multiple portfolio management",
         "Real-time stock data and metrics",
@@ -72,39 +73,42 @@ export const worksData = {
         "Successfully created an AI opponent that makes strategic decisions in real-time, providing an engaging gaming experience while demonstrating practical applications of game theory and AI algorithms.",
       image: "/images/checkers.jpg",
       githubUrl: "https://github.com/blake-nelson-dev/java-checkers-ai",
+      status: "Complete",
     },
     {
-      id: "movie-database",
-      title: "(ADD INFO) Interactive Movie Database",
-      category: "Full Stack Development",
-      description:
-        "Developed a responsive movie database website with features similar to IMDB, utilizing React for the frontend and Node.js for the backend. The application integrates with external movie APIs to provide comprehensive movie information.",
-      problemStatement:
-        "Create a modern, user-friendly movie information platform that allows users to browse, search, and interact with movie data in real-time.",
-      role: "Full Stack Developer",
-      technologies: [
-        "React",
-        "Node.js",
-        "RESTful API",
-        "JavaScript",
-        "HTML/CSS",
-      ],
-      highlights: [
-        "Built responsive user interface with React",
-        "Implemented RESTful API with Node.js",
-        "Integrated external movie data APIs",
-        "Created efficient search functionality",
-      ],
-      challenges: [
-        "Managing state across multiple components",
-        "Optimizing API calls for performance",
-        "Implementing responsive design",
-        "Handling asynchronous data loading",
-      ],
-      impact:
-        "Created a fully functional movie database platform that demonstrates full-stack development capabilities and modern web development practices.",
+      id: "film-quest",
+  title: "FilmQuest - Movie Discovery Platform",
+  category: "Full Stack Development",
+  description: "Developed a dynamic movie discovery web application using React and Node.js that allows users to explore, search, and filter movies using real-time data from movie database APIs. Features comprehensive search capabilities, advanced filtering, and responsive design.",
+  problemStatement: "Create an intuitive and responsive web platform for movie discovery that provides users with real-time access to movie information, including advanced search and filtering capabilities while handling API rate limits and image validation.",
+  role: "Full Stack Developer",
+  technologies: [
+    "React",
+    "Node.js",
+    "Express",
+    "RESTful APIs",
+    "React Bootstrap",
+    "Axios",
+    "CORS"
+  ],
+  highlights: [
+    "Implemented real-time movie data fetching with efficient API usage",
+    "Created advanced search functionality with multiple filter options",
+    "Developed image validation system to ensure high-quality movie posters",
+    "Built responsive UI with React Bootstrap for optimal viewing across devices",
+    "Integrated error handling and loading states for better user experience"
+  ],
+  challenges: [
+    "Managing API rate limits while maintaining responsive user experience",
+    "Implementing efficient image validation for movie posters",
+    "Creating an intuitive interface for complex search parameters",
+    "Handling asynchronous data loading and state management",
+    "Optimizing performance with large datasets"
+  ],
+  impact: "Successfully created a user-friendly movie discovery platform that demonstrates full-stack development capabilities and provides an efficient way for users to explore and find movies of interest.",
       image: "/images/placeholder.jpg",
-      githubUrl: "https://github.com/yourusername/movie-database",
+      githubUrl: "https://github.com/blake-nelson-dev/movie-discovery-platform",
+      status: "Complete",
     },
     {
       id: "imdb-games-analysis",
@@ -139,7 +143,8 @@ export const worksData = {
       impact:
         "Successfully identified key factors influencing video game ratings and created a model to predict rating scores, achieving significant accuracy through model comparison and selection.",
       image: "/images/placeholder.jpg",
-      githubUrl: "https://github.com/yourusername/imdb-games-analysis",
+      githubUrl: "None",
+      status: "Complete",
     },
     {
       id: "crypto-prediction",
@@ -174,7 +179,8 @@ export const worksData = {
       impact:
         "Successfully demonstrated that simple models like Linear Regression can perform comparably to more complex approaches in cryptocurrency price prediction, providing a foundation for practical real-time prediction systems.",
       image: "/images/placeholder.jpg",
-      githubUrl: "your-github-url",
+      githubUrl: "None",
+      status: "Complete",
     },
     {
       id: "nba-analysis",
@@ -206,7 +212,8 @@ export const worksData = {
       ],
       impact: "Provided insights into NBA talent development patterns, including the influence of geography on player development and the relationship between physical attributes and career success. Found that city population size significantly correlates with NBA talent production.",
       image: "/images/placeholder.jpg",
-      githubUrl: "your-github-url"
+      githubUrl: "None",
+      status: "Complete",
     },
     {
       id: "ssrs-scanner",
@@ -239,7 +246,8 @@ export const worksData = {
       ],
       impact: "Significantly improved report standardization and reduced manual review time for SSRS reports. Provided insights into SQL patterns and potential optimizations across the reporting infrastructure.",
       image: "/images/placeholder.jpg",
-      githubUrl: "your-github-url"
+      githubUrl: "None",
+      status: "Complete",
     },
     {
       id: "lidar-analysis",
@@ -272,7 +280,8 @@ export const worksData = {
       ],
       impact: "Successfully created a tool for analyzing terrain data and predicting water flow patterns, providing valuable insights for geographic analysis and potential flood prediction.",
       image: "/images/placeholder.jpg",
-      githubUrl: "your-github-url"
+      githubUrl: "None",
+      status: "Complete",
     },
     {
       id: "drone-safety",
@@ -305,7 +314,7 @@ export const worksData = {
       ],
       impact: "This project aims to enhance drone flight safety by providing pilots with formal safety assessment tools, potentially reducing incidents in shared airspace.",
       image: "/images/placeholder.jpg",
-      githubUrl: "your-github-url",
+      githubUrl: "None",
       status: "In Development"
     }
   ],
