@@ -11,10 +11,10 @@ export const aboutData = {
     description: "I'm a Computer Science graduate with a strong foundation in Data Science, passionate about developing intelligent solutions to real-world problems. My academic journey has equipped me with both theoretical knowledge and practical experience in AI, machine learning, and software development."
   },
   education: {
-    university: "Your University Name",
+    university: "Iowa State University",
     degree: "Bachelor of Science in Computer Science",
     minor: "Minor in Data Science",
-    graduationYear: "2024",
+    graduationYear: "May 2025",
     relevantCourework: [
       "Artificial Intelligence",
       "Machine Learning",
