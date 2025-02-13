@@ -177,7 +177,7 @@ export const worksData = {
       impact:
         "Successfully identified key factors influencing video game ratings and created a model to predict rating scores, achieving significant accuracy through model comparison and selection.",
       image: "/images/game-controller.jpg",
-      githubUrl: "None",
+      githubUrl: "https://github.com/blake-nelson-dev/video-game-ratings-analysis",
       status: "Complete",
     },
     {
